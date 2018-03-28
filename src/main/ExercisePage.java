@@ -8,9 +8,12 @@ import org.openqa.selenium.support.ui.*;
 public class ExercisePage {
 
     WebDriver driver;
+    WebDriverWait wait;
+
 
     public ExercisePage(WebDriver driver) {
         this.driver = driver;
+        this.wait = new WebDriverWait(driver, 10);
     }
 
     public void openPage(String page) {
@@ -134,7 +137,8 @@ public class ExercisePage {
     public void setPurpleBox() {
         WebElement purpleBoxSlot = driver.findElement(By.id("answer11"));
         String value;
-        if (driver.findElement(By.id("purplebox")).getAttribute("style").contains("none"))  {
+        boolean isVisible = driver.findElement(By.id("purplebox")).getAttribute("style").contains("none");
+        if (isVisible)  {
             value = "NO";
         } else
             value = "YES";
@@ -142,7 +146,6 @@ public class ExercisePage {
     }
 
     private void clickAndWaitWaitLink() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
         driver.findElement(By.linkText("Wait")).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Click After Wait")));
     }
@@ -159,7 +162,6 @@ public class ExercisePage {
     public void submitForm() {
         driver.findElement(By.id("submitbutton")).click();
     }
-
 
     public void checkResults() {
         driver.findElement(By.id("checkresults")).click();

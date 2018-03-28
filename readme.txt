@@ -4,8 +4,6 @@ This project contains the exercise automation solution for http://exercises.fdvs
 
 
 Getting Started
-
-
 Prerequisites
 
 Environment specifications
@@ -21,7 +19,7 @@ Installing
 
 Install IntelliJ IDEA
 Create a new project
-- From Project Structure import Dependencies: chromewebdriver and selenium java
+- From Project Structure import Dependencies: chromewebdriver and seleniumjava
 Import Selenium Project project
 
 

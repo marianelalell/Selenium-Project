@@ -15,12 +15,10 @@
       <file leaf-file-name="ExercisePage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/ExercisePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
+            <state relative-caret-position="365">
+              <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#226#227#0" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
                 <element signature="e#306#307#0" expanded="true" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="ExerciseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ExerciseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+            <state relative-caret-position="204">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,13 +53,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/java/TestingPage.java" />
         <option value="$PROJECT_DIR$/src/java/ExercisePage.java" />
-        <option value="$PROJECT_DIR$/src/test/ExerciseTest.java" />
         <option value="$PROJECT_DIR$/src/main/ExercisePage.java" />
+        <option value="$PROJECT_DIR$/src/test/ExerciseTest.java" />
       </list>
     </option>
   </component>
@@ -71,6 +72,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -114,10 +116,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/SeleniumDrivers/chromedriver_win32" />
+    <property name="last_opened_file_path" value="D:/GitHub/Selenium-Project/.gitattributes" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -222,9 +225,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExerciseTest - 2018.03.28 at 15h 35m 08s.xml">
-      <configuration name="ExerciseTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ExerciseTest - 2018.03.28 at 15h 37m 06s.xml">
       <configuration name="ExerciseTest" configurationId="TestNG" />
     </history-entry>
@@ -252,6 +252,9 @@
     <history-entry file="ExerciseTest - 2018.03.28 at 17h 15m 13s.xml">
       <configuration name="ExerciseTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ExerciseTest - 2018.03.28 at 20h 09m 43s.xml">
+      <configuration name="ExerciseTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-96" width="1936" height="1056" extended-state="6" />
@@ -266,7 +269,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2975558" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -356,8 +359,6 @@
           <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
             <element signature="e#226#227#0" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />
@@ -394,10 +395,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/SeleniumDrivers/selenium-java-3.11.0/client-combined-3.11.0-sources.jar!/org/openqa/selenium/support/PageFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ExerciseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -406,12 +414,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ExercisePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
+        <state relative-caret-position="365">
+          <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
             <element signature="e#226#227#0" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />
