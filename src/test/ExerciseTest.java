@@ -15,6 +15,7 @@ public class ExerciseTest {
 
     @BeforeClass
     public void setup(){
+        //Update chrome driver path as needed 
         System.setProperty("webdriver.chrome.driver", "D:\\SeleniumDrivers\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
     }
