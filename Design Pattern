@@ -1,0 +1,7 @@
+# Design pattern applied
+<br>
+This implementation was made by using Page Object Pattern, since allows me to manipulate the page elements without doing changes around the HTML.
+There is a class with methods that manipulate the page data, and a test class where those methods are used.
+<br>
+Per each  group of elements that are going to be manipulated, a new object is created. This object can be used more than once by different procedures.
+Per each "user action" that needs to be represented on the page, there is a test call to the proper method to do so.
